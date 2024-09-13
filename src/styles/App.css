@@ -19,16 +19,17 @@ body, html {
 }
 .sidebar {
     width: 300px;
-    padding: 40px;
+    padding: 80px;
     position: fixed;
     height: 100%;
     overflow-y: auto;
 }
 .content {
-    margin-left: 380px;
+    margin-left: 450px;
     padding: 40px;
     overflow-y: auto;
     height: 100%;
+    width: 50%;
     flex-grow: 1;
 }
 h1, h2, h3 {
@@ -140,23 +141,13 @@ nav a.active::before {
 .view-resume:hover {
     background-color: var(--heading-color);
 }
-.mouse-light {
-    position: fixed;
-    pointer-events: none;
-    width: 200px;
-    height: 200px;
-    background: radial-gradient(circle, rgba(100,255,218,0.15) 0%, rgba(100,255,218,0) 70%);
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999;
-}
 
 .mouse-light {
     position: fixed;
     pointer-events: none;
-    width: 200px;
-    height: 200px;
-    background: radial-gradient(circle, rgba(100,255,218,0.15) 0%, rgba(100,255,218,0) 70%);
+    width: 1000px;
+    height: 1000px;
+    background: radial-gradient(circle, rgba(100,255,218,0.15) 0%, rgba(100,255,218,0) 30%);
     border-radius: 50%;
     transform: translate(-50%, -50%);
     z-index: 9999;
