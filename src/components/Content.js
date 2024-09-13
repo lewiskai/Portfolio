@@ -38,7 +38,14 @@ function Content() {
                     <span class="tag">Agile</span>
             </div>
         </div>
-        <a href="jinmin-cai-portfolio/Jinmin Cai CV (1).docx" className="view-resume">View Full Resume →</a>
+        <a 
+          href="/Jinmin_Cai_CV.pdf" 
+          className="view-resume" 
+          target="_blank" 
+          rel="noopener noreferrer"
+        >
+          View Full Resume →
+        </a>
       </section>
 
       {/* Add Projects, Skills, and Contact sections here */}
