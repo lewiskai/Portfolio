@@ -39,7 +39,7 @@ function Content() {
             </div>
         </div>
         <a 
-          href="/Jinmin_Cai_CV.pdf" 
+          href="/Jinmin Cai CV (1).pdf" 
           className="view-resume" 
           target="_blank" 
           rel="noopener noreferrer"
